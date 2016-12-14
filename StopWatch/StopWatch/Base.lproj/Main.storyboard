@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StopWatch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,80 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1D-Bm-wr0">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLb-ue-XOf">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="137" id="fkv-1D-qv9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="100"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzZ-RS-VXU">
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <state key="normal" title="reset">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="resetBtnDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gF8-aK-362"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="LLb-ue-XOf" secondAttribute="trailing" id="89L-j5-W1A"/>
+                                    <constraint firstAttribute="trailing" secondItem="OzZ-RS-VXU" secondAttribute="trailing" constant="30" id="Bl1-04-WuU"/>
+                                    <constraint firstItem="OzZ-RS-VXU" firstAttribute="top" secondItem="q1D-Bm-wr0" secondAttribute="top" constant="30" id="CFF-PM-ebI"/>
+                                    <constraint firstItem="LLb-ue-XOf" firstAttribute="leading" secondItem="q1D-Bm-wr0" secondAttribute="leading" id="KuK-P3-kZU"/>
+                                    <constraint firstItem="LLb-ue-XOf" firstAttribute="centerY" secondItem="q1D-Bm-wr0" secondAttribute="centerY" id="csx-4Q-NoM"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2Y-zy-W94">
+                                <color key="backgroundColor" red="0.32746964690000002" green="0.36376082900000001" blue="0.98649883270000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="playBtnDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FtN-IE-wP9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gyn-dd-dtx">
+                                <color key="backgroundColor" red="0.39815762640000002" green="0.74619466069999996" blue="0.031657174230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="pause"/>
+                                <connections>
+                                    <action selector="pauseBtnDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EJ6-7G-MGF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="k2Y-zy-W94" secondAttribute="bottom" id="1Ih-Gl-2C5"/>
+                            <constraint firstItem="k2Y-zy-W94" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1ds-ie-KUp"/>
+                            <constraint firstItem="q1D-Bm-wr0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="88m-qw-8s8"/>
+                            <constraint firstItem="q1D-Bm-wr0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" constant="20" id="IWT-64-yWU"/>
+                            <constraint firstItem="k2Y-zy-W94" firstAttribute="width" secondItem="Gyn-dd-dtx" secondAttribute="width" id="OlA-Sa-H9r"/>
+                            <constraint firstItem="k2Y-zy-W94" firstAttribute="top" secondItem="q1D-Bm-wr0" secondAttribute="bottom" id="Wdn-Zz-6jb"/>
+                            <constraint firstItem="Gyn-dd-dtx" firstAttribute="top" secondItem="q1D-Bm-wr0" secondAttribute="bottom" id="Z7W-P8-Z7H"/>
+                            <constraint firstItem="q1D-Bm-wr0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="awa-w0-ogK"/>
+                            <constraint firstAttribute="trailing" secondItem="Gyn-dd-dtx" secondAttribute="trailing" id="jrX-WJ-fcA"/>
+                            <constraint firstAttribute="trailing" secondItem="q1D-Bm-wr0" secondAttribute="trailing" id="qRE-Wb-EXg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gyn-dd-dtx" secondAttribute="bottom" id="sHS-a5-97y"/>
+                            <constraint firstItem="Gyn-dd-dtx" firstAttribute="leading" secondItem="k2Y-zy-W94" secondAttribute="trailing" id="v6J-jm-qVD"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pauseBtn" destination="Gyn-dd-dtx" id="8gu-Qp-0WD"/>
+                        <outlet property="playBtn" destination="k2Y-zy-W94" id="Jxn-vd-lgc"/>
+                        <outlet property="timeLabel" destination="LLb-ue-XOf" id="hJs-WI-Gme"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pause" width="42" height="56"/>
+        <image name="play" width="48" height="61"/>
+    </resources>
 </document>
