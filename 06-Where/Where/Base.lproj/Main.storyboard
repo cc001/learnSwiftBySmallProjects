@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Where" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="BzY-oQ-V9l">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wq0-6f-98C">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Xax-KF-EGx">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAu-Ce-p9d">
+                                            <rect key="frame" x="24.5" y="549" width="326" height="78"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <state key="normal" title="find my location" backgroundImage="Find my location">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="startLocateMyLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z9J-Mt-SIJ"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的位置" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTb-Yk-aPB">
+                                            <rect key="frame" x="20" y="321.5" width="335" height="24"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="XAu-Ce-p9d" secondAttribute="bottom" constant="40" id="9aT-hR-LP7"/>
+                                        <constraint firstItem="LTb-Yk-aPB" firstAttribute="centerY" secondItem="Xax-KF-EGx" secondAttribute="centerY" id="Rmu-NY-xGO"/>
+                                        <constraint firstItem="LTb-Yk-aPB" firstAttribute="centerX" secondItem="Xax-KF-EGx" secondAttribute="centerX" id="YwI-Su-rCA"/>
+                                        <constraint firstItem="LTb-Yk-aPB" firstAttribute="leading" secondItem="Xax-KF-EGx" secondAttribute="leading" constant="20" id="bGd-5e-3eH"/>
+                                        <constraint firstItem="XAu-Ce-p9d" firstAttribute="centerX" secondItem="Xax-KF-EGx" secondAttribute="centerX" id="eI9-id-snu"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BzY-oQ-V9l" secondAttribute="trailing" id="Icg-fZ-qVU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wq0-6f-98C" secondAttribute="bottom" id="IhX-WR-6rJ"/>
+                            <constraint firstItem="BzY-oQ-V9l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="PDC-Wj-CR3"/>
+                            <constraint firstAttribute="trailing" secondItem="wq0-6f-98C" secondAttribute="trailing" id="VBI-90-7BU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BzY-oQ-V9l" secondAttribute="bottom" id="hTr-uI-Q76"/>
+                            <constraint firstItem="BzY-oQ-V9l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="j6S-Te-8Po"/>
+                            <constraint firstItem="wq0-6f-98C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="oWi-4P-cMk"/>
+                            <constraint firstItem="wq0-6f-98C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sux-b6-gLd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="locationLabel" destination="LTb-Yk-aPB" id="kNO-yx-nrU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="121.88905547226388"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Find my location" width="326" height="78"/>
+        <image name="bg" width="375" height="667"/>
+    </resources>
+</document>
