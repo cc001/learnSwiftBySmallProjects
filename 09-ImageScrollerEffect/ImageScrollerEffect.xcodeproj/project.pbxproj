@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					92569D1F1E0780A200E16C60 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = E463NEC4R3;
+						DevelopmentTeam = VUF52DQTNX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -259,7 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E463NEC4R3;
+				DEVELOPMENT_TEAM = VUF52DQTNX;
 				INFOPLIST_FILE = ImageScrollerEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ImageScrollerEffect;
@@ -272,7 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E463NEC4R3;
+				DEVELOPMENT_TEAM = VUF52DQTNX;
 				INFOPLIST_FILE = ImageScrollerEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ImageScrollerEffect;
