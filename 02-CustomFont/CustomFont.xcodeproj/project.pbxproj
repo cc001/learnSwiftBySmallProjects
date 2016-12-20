@@ -13,10 +13,10 @@
 		920970061E013128007A3673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920970051E013128007A3673 /* Assets.xcassets */; };
 		920970091E013128007A3673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920970071E013128007A3673 /* LaunchScreen.storyboard */; };
 		920970111E0133E6007A3673 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920970101E0133E6007A3673 /* TableViewController.swift */; };
-		920970161E01466B007A3673 /* Gaspar Regular.otf in Sources */ = {isa = PBXBuildFile; fileRef = 920970121E01439A007A3673 /* Gaspar Regular.otf */; };
-		920970171E01466F007A3673 /* MFJinHei_Noncommercial-Regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 920970131E01439A007A3673 /* MFJinHei_Noncommercial-Regular.ttf */; };
-		920970181E014673007A3673 /* MFTongXin_Noncommercial-Regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 920970141E01439A007A3673 /* MFTongXin_Noncommercial-Regular.ttf */; };
-		920970191E014677007A3673 /* MFZhiHei_Noncommercial-Regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 920970151E01439A007A3673 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		92164B951E08D67200432411 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92164B911E08D67200432411 /* Gaspar Regular.otf */; };
+		92164B961E08D67200432411 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92164B921E08D67200432411 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		92164B971E08D67200432411 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92164B931E08D67200432411 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		92164B981E08D67200432411 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92164B941E08D67200432411 /* MFZhiHei_Noncommercial-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		920970081E013128007A3673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9209700A1E013128007A3673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		920970101E0133E6007A3673 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		920970121E01439A007A3673 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
-		920970131E01439A007A3673 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
-		920970141E01439A007A3673 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
-		920970151E01439A007A3673 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		92164B911E08D67200432411 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		92164B921E08D67200432411 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		92164B931E08D67200432411 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		92164B941E08D67200432411 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +69,11 @@
 				920970101E0133E6007A3673 /* TableViewController.swift */,
 				920970021E013128007A3673 /* Main.storyboard */,
 				920970051E013128007A3673 /* Assets.xcassets */,
+				92164B911E08D67200432411 /* Gaspar Regular.otf */,
+				92164B921E08D67200432411 /* MFJinHei_Noncommercial-Regular.ttf */,
+				92164B931E08D67200432411 /* MFTongXin_Noncommercial-Regular.ttf */,
+				92164B941E08D67200432411 /* MFZhiHei_Noncommercial-Regular.ttf */,
 				920970071E013128007A3673 /* LaunchScreen.storyboard */,
-				920970121E01439A007A3673 /* Gaspar Regular.otf */,
-				920970131E01439A007A3673 /* MFJinHei_Noncommercial-Regular.ttf */,
-				920970141E01439A007A3673 /* MFTongXin_Noncommercial-Regular.ttf */,
-				920970151E01439A007A3673 /* MFZhiHei_Noncommercial-Regular.ttf */,
 				9209700A1E013128007A3673 /* Info.plist */,
 			);
 			path = CustomFont;
@@ -106,12 +106,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CC;
 				TargetAttributes = {
 					92096FFA1E013128007A3673 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = E463NEC4R3;
+						DevelopmentTeam = VUF52DQTNX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,7 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				920970091E013128007A3673 /* LaunchScreen.storyboard in Resources */,
+				92164B951E08D67200432411 /* Gaspar Regular.otf in Resources */,
+				92164B981E08D67200432411 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				92164B961E08D67200432411 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				920970061E013128007A3673 /* Assets.xcassets in Resources */,
+				92164B971E08D67200432411 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				920970041E013128007A3673 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,10 +156,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				920970191E014677007A3673 /* MFZhiHei_Noncommercial-Regular.ttf in Sources */,
-				920970181E014673007A3673 /* MFTongXin_Noncommercial-Regular.ttf in Sources */,
-				920970171E01466F007A3673 /* MFJinHei_Noncommercial-Regular.ttf in Sources */,
-				920970161E01466B007A3673 /* Gaspar Regular.otf in Sources */,
 				920970011E013128007A3673 /* ViewController.swift in Sources */,
 				920970111E0133E6007A3673 /* TableViewController.swift in Sources */,
 				92096FFF1E013128007A3673 /* AppDelegate.swift in Sources */,
@@ -202,6 +202,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -251,6 +252,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -279,7 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E463NEC4R3;
+				DEVELOPMENT_TEAM = VUF52DQTNX;
 				INFOPLIST_FILE = CustomFont/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CustomFont;
@@ -292,7 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E463NEC4R3;
+				DEVELOPMENT_TEAM = VUF52DQTNX;
 				INFOPLIST_FILE = CustomFont/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CustomFont;
@@ -320,6 +322,7 @@
 				9209700F1E013128007A3673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

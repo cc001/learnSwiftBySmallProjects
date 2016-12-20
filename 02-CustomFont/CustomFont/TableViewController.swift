@@ -61,12 +61,10 @@ class TableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return stringArray.count
     }
 
@@ -74,37 +72,14 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tableViewCell", for: indexPath)
         cell.backgroundColor = UIColor.black
+        cell.selectionStyle = UITableViewCellSelectionStyle.none
 
-//        // Configure the cell...
-//        cell.textLabel?.text = stringArray[indexPath.row]
-//        cell.textLabel?.textColor = UIColor.white
-//        //cell.textLabel?.font = UIFont(name:self.fontNames[fontRowIndex], size:16)
-        
-        let label = UILabel.init(frame: CGRect(x: 0, y: 0, width: 200, height: 30))
-        label.text = "这里给出测试字体为的是测试出更好的样子来"
-        label.textColor = UIColor.white
-        label.font = UIFont(name: "KohinoorTelugu-Regular", size: 20)
-        cell.addSubview(label)
-        
-        
-//        if indexPath.row == 0 {
-//            cell.textLabel?.font = UIFont(name: "KohinoorTelugu-Regular", size: 20)
-//        }
-//        else if indexPath.row == 1 {
-//            cell.textLabel?.font = UIFont(name: "CourierNewPS-ItalicMT", size: 20)
-//        }else if indexPath.row == 2 {
-//            cell.textLabel?.font = UIFont(name: "HelveticaNeue-Italic", size: 20)
-//        }else if indexPath.row == 3 {
-//            cell.textLabel?.font = UIFont(name: "BodoniSvtyTwoOSITCTT-BookIt", size: 20)
-//        }else if indexPath.row == 4 {
-//            cell.textLabel?.font = UIFont(name: "HiraginoSans-W3", size: 20)
-//        }
-
-        
-        
+        // Configure the cell...
+        cell.textLabel?.text = stringArray[indexPath.row]
+        cell.textLabel?.textColor = UIColor.white
+        cell.textLabel?.font = UIFont(name:self.fontNames[fontRowIndex], size:16)
         return cell
     }
-
 
     /*
     // Override to support conditional editing of the table view.
