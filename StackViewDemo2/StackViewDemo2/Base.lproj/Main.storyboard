@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gAF-u3-1dI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="B2m-AE-xSK">
+            <objects>
+                <navigationController id="gAF-u3-1dI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Wn-wj-gpY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="39N-AI-Vxv" kind="relationship" relationship="rootViewController" id="Uj1-rp-k8T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MuM-HL-eBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-385" y="-36"/>
+        </scene>
+        <!--Photo Collection-->
+        <scene sceneID="PM5-S3-HcZ">
+            <objects>
+                <viewController id="39N-AI-Vxv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jgr-Cv-sHU"/>
+                        <viewControllerLayoutGuide type="bottom" id="4NW-WH-xVE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3oL-cs-T8d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="npN-Ar-Cya">
+                                <rect key="frame" x="16" y="74" width="343" height="467"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nature-1" translatesAutoresizingMaskIntoConstraints="NO" id="Igs-nq-HIA">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="149"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nature-2" translatesAutoresizingMaskIntoConstraints="NO" id="dWQ-sb-Ht3">
+                                        <rect key="frame" x="0.0" y="159" width="343" height="149"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nature-3" translatesAutoresizingMaskIntoConstraints="NO" id="L53-MQ-HJc">
+                                        <rect key="frame" x="0.0" y="318" width="343" height="149"/>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="yXR-Ba-jVw">
+                                <rect key="frame" x="16" y="549" width="343" height="58.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" alignment="firstBaseline" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2VP-jD-OeK">
+                                        <rect key="frame" x="0.0" y="0.0" width="184.5" height="38"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1r-bs-3ql">
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="e4Y-5N-8lO">
+                                                <rect key="frame" x="109.5" y="8" width="75" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="205-cW-XIp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                        <state key="normal" title="Like"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aks-X8-Jr8">
+                                                        <rect key="frame" x="35" y="0.0" width="40" height="30"/>
+                                                        <state key="normal" title="Share"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A colletion of nature photos from magdeleine.co" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qT-Mj-J1A">
+                                        <rect key="frame" x="0.0" y="38" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="npN-Ar-Cya" secondAttribute="trailing" id="2sS-Jb-6lc"/>
+                            <constraint firstItem="yXR-Ba-jVw" firstAttribute="top" secondItem="npN-Ar-Cya" secondAttribute="bottom" constant="8" id="IrW-aa-bYr"/>
+                            <constraint firstItem="npN-Ar-Cya" firstAttribute="height" secondItem="3oL-cs-T8d" secondAttribute="height" multiplier="0.7" id="X3N-3d-Lp5"/>
+                            <constraint firstItem="yXR-Ba-jVw" firstAttribute="leading" secondItem="3oL-cs-T8d" secondAttribute="leadingMargin" id="cJ3-6t-XYg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yXR-Ba-jVw" secondAttribute="trailing" id="e1W-HL-FQb"/>
+                            <constraint firstItem="npN-Ar-Cya" firstAttribute="top" secondItem="Jgr-Cv-sHU" secondAttribute="bottom" constant="10" id="ggQ-bA-Vd4"/>
+                            <constraint firstItem="npN-Ar-Cya" firstAttribute="leading" secondItem="3oL-cs-T8d" secondAttribute="leadingMargin" id="mkZ-eR-4m3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Photo Collection" id="QLV-Zu-dcj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S4Q-IK-TNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="-36"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nature-1" width="1000" height="667"/>
+        <image name="nature-2" width="1024" height="678"/>
+        <image name="nature-3" width="1024" height="683"/>
+    </resources>
+</document>
