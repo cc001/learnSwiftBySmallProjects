@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="stackViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hrr-Ae-rL8">
+                                <rect key="frame" x="0.0" y="20" width="667" height="240"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="becky" translatesAutoresizingMaskIntoConstraints="NO" id="3q0-yK-bad">
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="240"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ben" translatesAutoresizingMaskIntoConstraints="NO" id="LLd-xu-Q89">
+                                        <rect key="frame" x="275" y="0.0" width="132" height="240"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pete" translatesAutoresizingMaskIntoConstraints="NO" id="egu-4h-X4y">
+                                        <rect key="frame" x="407" y="0.0" width="125" height="240"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ray" translatesAutoresizingMaskIntoConstraints="NO" id="Ijl-4f-Rmj">
+                                        <rect key="frame" x="532" y="0.0" width="135" height="240"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="fAD-bt-jQM"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Tx-4u-ROR">
+                                <rect key="frame" x="0.0" y="280" width="667" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Distribution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQO-SY-ACC">
+                                        <rect key="frame" x="0.0" y="0.0" width="88.5" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="748" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Cii-Zv-uHX">
+                                        <rect key="frame" x="88.5" y="0.0" width="578.5" height="29"/>
+                                        <segments>
+                                            <segment title="Fill"/>
+                                            <segment title="Fill Equally"/>
+                                            <segment title="Fill Proportionally"/>
+                                            <segment title="Equal Spacing"/>
+                                            <segment title="Equal Centering"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="distributionSegmentSelected:" destination="BYZ-38-t0r" eventType="valueChanged" id="Hvd-sM-Q3K"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euF-3O-rct">
+                                <rect key="frame" x="0.0" y="328" width="667" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Alignment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAb-Th-VBc">
+                                        <rect key="frame" x="0.0" y="0.0" width="77.5" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HF8-oo-F8Y">
+                                        <rect key="frame" x="77.5" y="0.0" width="589.5" height="29"/>
+                                        <segments>
+                                            <segment title="Fill"/>
+                                            <segment title="Top"/>
+                                            <segment title="Center"/>
+                                            <segment title="Bottom"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="segmentSelected:" destination="BYZ-38-t0r" eventType="valueChanged" id="J0q-zb-4Qj"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Tx-4u-ROR" firstAttribute="top" secondItem="Hrr-Ae-rL8" secondAttribute="bottom" constant="20" id="1sO-TO-mhj"/>
+                            <constraint firstItem="euF-3O-rct" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="L7Z-MM-gBM"/>
+                            <constraint firstAttribute="trailing" secondItem="Hrr-Ae-rL8" secondAttribute="trailing" id="LjK-Le-Qju"/>
+                            <constraint firstAttribute="trailing" secondItem="euF-3O-rct" secondAttribute="trailing" id="MBk-hc-4nL"/>
+                            <constraint firstItem="Hrr-Ae-rL8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="OG5-hp-9BG"/>
+                            <constraint firstItem="Hrr-Ae-rL8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Zdi-HB-gdw"/>
+                            <constraint firstAttribute="trailing" secondItem="9Tx-4u-ROR" secondAttribute="trailing" id="bmv-8p-5nx"/>
+                            <constraint firstItem="9Tx-4u-ROR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fVz-PJ-ZYF"/>
+                            <constraint firstItem="euF-3O-rct" firstAttribute="top" secondItem="9Tx-4u-ROR" secondAttribute="bottom" constant="20" id="msP-Vs-SyI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="peopleStackView" destination="Hrr-Ae-rL8" id="O7T-q2-9af"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="111"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="becky" width="151" height="178"/>
+        <image name="ben" width="132" height="143"/>
+        <image name="pete" width="125" height="159"/>
+        <image name="ray" width="135" height="170"/>
+    </resources>
+</document>
