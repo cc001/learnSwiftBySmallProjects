@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4276000F1E0AC26B00078D1F /* CCNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4276000E1E0AC26B00078D1F /* CCNavigationViewController.swift */; };
 		9295356A1E0A7B4600C5E899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929535691E0A7B4600C5E899 /* AppDelegate.swift */; };
 		9295356C1E0A7B4600C5E899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295356B1E0A7B4600C5E899 /* ViewController.swift */; };
 		9295356F1E0A7B4600C5E899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295356D1E0A7B4600C5E899 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4276000E1E0AC26B00078D1F /* CCNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCNavigationViewController.swift; sourceTree = "<group>"; };
 		929535661E0A7B4600C5E899 /* AnimatedSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929535691E0A7B4600C5E899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9295356B1E0A7B4600C5E899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				929535691E0A7B4600C5E899 /* AppDelegate.swift */,
 				9295356B1E0A7B4600C5E899 /* ViewController.swift */,
+				4276000E1E0AC26B00078D1F /* CCNavigationViewController.swift */,
 				9295356D1E0A7B4600C5E899 /* Main.storyboard */,
 				929535701E0A7B4600C5E899 /* Assets.xcassets */,
 				929535721E0A7B4600C5E899 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				9295356C1E0A7B4600C5E899 /* ViewController.swift in Sources */,
 				9295356A1E0A7B4600C5E899 /* AppDelegate.swift in Sources */,
+				4276000F1E0AC26B00078D1F /* CCNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -300,6 +304,7 @@
 				9295357A1E0A7B4600C5E899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
