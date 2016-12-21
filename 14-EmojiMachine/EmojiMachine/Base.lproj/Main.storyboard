@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmojiMachine" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hyperspace" translatesAutoresizingMaskIntoConstraints="NO" id="eCi-qH-yM8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="stP-Sw-8bD">
+                                <rect key="frame" x="16" y="206" width="343" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pr5-iK-UyW">
+                                <rect key="frame" x="46" y="482" width="282" height="45"/>
+                                <color key="backgroundColor" red="0.74375247542203393" green="1" blue="0.42874427676858518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="DYk-aw-yxY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="嗨一把！">
+                                    <color key="titleColor" red="0.25106457551963179" green="0.94674066653866684" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="68Q-rf-Ck6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26U-35-qcP">
+                                <rect key="frame" x="46" y="587" width="282" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="26U-35-qcP" firstAttribute="centerX" secondItem="eCi-qH-yM8" secondAttribute="centerX" id="2G2-bx-xD0"/>
+                            <constraint firstItem="26U-35-qcP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="7hE-KD-DF4"/>
+                            <constraint firstItem="stP-Sw-8bD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AB7-zg-kTP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eCi-qH-yM8" secondAttribute="bottom" id="EGc-ce-P6F"/>
+                            <constraint firstAttribute="trailing" secondItem="eCi-qH-yM8" secondAttribute="trailing" id="KMl-63-5wl"/>
+                            <constraint firstItem="eCi-qH-yM8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="RIc-r0-s5V"/>
+                            <constraint firstItem="Pr5-iK-UyW" firstAttribute="centerX" secondItem="eCi-qH-yM8" secondAttribute="centerX" id="VhX-5B-FPk"/>
+                            <constraint firstItem="Pr5-iK-UyW" firstAttribute="top" secondItem="stP-Sw-8bD" secondAttribute="bottom" constant="60" id="Xhf-J0-Jxu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="26U-35-qcP" secondAttribute="bottom" constant="80" id="apo-tL-ldV"/>
+                            <constraint firstItem="stP-Sw-8bD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hOD-e9-FL3"/>
+                            <constraint firstItem="eCi-qH-yM8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hdF-8L-Eut"/>
+                            <constraint firstItem="Pr5-iK-UyW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="kKH-Zb-Lfn"/>
+                            <constraint firstItem="26U-35-qcP" firstAttribute="top" secondItem="Pr5-iK-UyW" secondAttribute="bottom" constant="60" id="tyV-58-ian"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emojiPickerView" destination="stP-Sw-8bD" id="E8u-Af-jQT"/>
+                        <outlet property="goButton" destination="Pr5-iK-UyW" id="N5o-Xc-8bS"/>
+                        <outlet property="resultLabel" destination="26U-35-qcP" id="9S7-2j-JaL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hyperspace" width="621" height="1104"/>
+    </resources>
+</document>
