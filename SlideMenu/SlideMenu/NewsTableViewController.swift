@@ -124,6 +124,12 @@ class NewsTableViewController: UITableViewController, MenuTransitionManagerDeleg
 
     
     
+    @IBAction func unwindToHome(_ segue: UIStoryboardSegue) {
+        let sourceController = segue.source as! MenuTableViewController
+        self.title = sourceController.currentItem
+    }
+
+    
     // MARK: - Navigation
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
