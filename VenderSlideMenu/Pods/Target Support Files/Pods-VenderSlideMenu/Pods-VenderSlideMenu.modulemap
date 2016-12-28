@@ -1,0 +1,6 @@
+framework module Pods_VenderSlideMenu {
+  umbrella header "Pods-VenderSlideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

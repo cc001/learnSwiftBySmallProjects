@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DE76E49A855B1B5FFB4DC7 /* Pods_VenderSlideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238950BC2E397F0570EBCE48 /* Pods_VenderSlideMenu.framework */; };
+		92839A3F1E136B3500945E2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92839A3E1E136B3500945E2D /* AppDelegate.swift */; };
+		92839A411E136B3500945E2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92839A401E136B3500945E2D /* ViewController.swift */; };
+		92839A441E136B3500945E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92839A421E136B3500945E2D /* Main.storyboard */; };
+		92839A461E136B3500945E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92839A451E136B3500945E2D /* Assets.xcassets */; };
+		92839A491E136B3500945E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92839A471E136B3500945E2D /* LaunchScreen.storyboard */; };
+		92C4A7AA1E13916200711684 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4A7A91E13916200711684 /* MainViewController.swift */; };
+		92C4A7AC1E13917300711684 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4A7AB1E13917300711684 /* LeftViewController.swift */; };
+		92C4A7AE1E13918200711684 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4A7AD1E13918200711684 /* RightViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		238950BC2E397F0570EBCE48 /* Pods_VenderSlideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenderSlideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92839A3B1E136B3500945E2D /* VenderSlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenderSlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92839A3E1E136B3500945E2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92839A401E136B3500945E2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92839A431E136B3500945E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92839A451E136B3500945E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92839A481E136B3500945E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92839A4A1E136B3500945E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C4A7A91E13916200711684 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		92C4A7AB1E13917300711684 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		92C4A7AD1E13918200711684 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		9E04857B562FE1933693CA7B /* Pods-VenderSlideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenderSlideMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenderSlideMenu/Pods-VenderSlideMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE01E4804813DFEF5D33084 /* Pods-VenderSlideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenderSlideMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenderSlideMenu/Pods-VenderSlideMenu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92839A381E136B3500945E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DE76E49A855B1B5FFB4DC7 /* Pods_VenderSlideMenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AFF11ED8E45399613A5206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238950BC2E397F0570EBCE48 /* Pods_VenderSlideMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		900E67F64F58F296FA84F390 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E04857B562FE1933693CA7B /* Pods-VenderSlideMenu.debug.xcconfig */,
+				ACE01E4804813DFEF5D33084 /* Pods-VenderSlideMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92839A321E136B3500945E2D = {
+			isa = PBXGroup;
+			children = (
+				92839A3D1E136B3500945E2D /* VenderSlideMenu */,
+				92839A3C1E136B3500945E2D /* Products */,
+				900E67F64F58F296FA84F390 /* Pods */,
+				16AFF11ED8E45399613A5206 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92839A3C1E136B3500945E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92839A3B1E136B3500945E2D /* VenderSlideMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92839A3D1E136B3500945E2D /* VenderSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				92839A3E1E136B3500945E2D /* AppDelegate.swift */,
+				92839A401E136B3500945E2D /* ViewController.swift */,
+				92C4A7A91E13916200711684 /* MainViewController.swift */,
+				92C4A7AB1E13917300711684 /* LeftViewController.swift */,
+				92C4A7AD1E13918200711684 /* RightViewController.swift */,
+				92839A421E136B3500945E2D /* Main.storyboard */,
+				92839A451E136B3500945E2D /* Assets.xcassets */,
+				92839A471E136B3500945E2D /* LaunchScreen.storyboard */,
+				92839A4A1E136B3500945E2D /* Info.plist */,
+			);
+			path = VenderSlideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92839A3A1E136B3500945E2D /* VenderSlideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92839A4D1E136B3500945E2D /* Build configuration list for PBXNativeTarget "VenderSlideMenu" */;
+			buildPhases = (
+				B1F01C0538FA2BAA2C9DB58A /* [CP] Check Pods Manifest.lock */,
+				92839A371E136B3500945E2D /* Sources */,
+				92839A381E136B3500945E2D /* Frameworks */,
+				92839A391E136B3500945E2D /* Resources */,
+				855DAD4EF70432F066F7E03D /* [CP] Embed Pods Frameworks */,
+				0C5A8C844E2921DCAE5F4D98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenderSlideMenu;
+			productName = VenderSlideMenu;
+			productReference = 92839A3B1E136B3500945E2D /* VenderSlideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92839A331E136B3500945E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CC;
+				TargetAttributes = {
+					92839A3A1E136B3500945E2D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VUF52DQTNX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92839A361E136B3500945E2D /* Build configuration list for PBXProject "VenderSlideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92839A321E136B3500945E2D;
+			productRefGroup = 92839A3C1E136B3500945E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92839A3A1E136B3500945E2D /* VenderSlideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92839A391E136B3500945E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92839A491E136B3500945E2D /* LaunchScreen.storyboard in Resources */,
+				92839A461E136B3500945E2D /* Assets.xcassets in Resources */,
+				92839A441E136B3500945E2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5A8C844E2921DCAE5F4D98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenderSlideMenu/Pods-VenderSlideMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855DAD4EF70432F066F7E03D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenderSlideMenu/Pods-VenderSlideMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F01C0538FA2BAA2C9DB58A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92839A371E136B3500945E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C4A7AA1E13916200711684 /* MainViewController.swift in Sources */,
+				92C4A7AC1E13917300711684 /* LeftViewController.swift in Sources */,
+				92C4A7AE1E13918200711684 /* RightViewController.swift in Sources */,
+				92839A411E136B3500945E2D /* ViewController.swift in Sources */,
+				92839A3F1E136B3500945E2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92839A421E136B3500945E2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92839A431E136B3500945E2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92839A471E136B3500945E2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92839A481E136B3500945E2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92839A4B1E136B3500945E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92839A4C1E136B3500945E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92839A4E1E136B3500945E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E04857B562FE1933693CA7B /* Pods-VenderSlideMenu.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VUF52DQTNX;
+				INFOPLIST_FILE = VenderSlideMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.VenderSlideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92839A4F1E136B3500945E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE01E4804813DFEF5D33084 /* Pods-VenderSlideMenu.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VUF52DQTNX;
+				INFOPLIST_FILE = VenderSlideMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.VenderSlideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92839A361E136B3500945E2D /* Build configuration list for PBXProject "VenderSlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92839A4B1E136B3500945E2D /* Debug */,
+				92839A4C1E136B3500945E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92839A4D1E136B3500945E2D /* Build configuration list for PBXNativeTarget "VenderSlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92839A4E1E136B3500945E2D /* Debug */,
+				92839A4F1E136B3500945E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92839A331E136B3500945E2D /* Project object */;
+}
